@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Cinemas pop</title>
+
+<style type="text/css">
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,
+body {
+    font-family: cursive;
+    line-height: 1.7em;
+    font-size: 15px;
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+
+    .container{
+        margin:auto;
+        max-width:1100px;
+        overflow: auto;
+        padding: 0 20px;
+    }
+    
+    /*1-navar*/
+    #navbar {
+        background: #2a1350;
+        color: #fff;
+        overflow: auto;
+    } 
+    
+    #navbar a{
+        color:#fff;
+    }
+    
+    #navbar h1{
+        float: left;
+        padding-top: 30px;
+    }
+    
+    #navbar ul{
+        list-style: none;
+        float: right;
+    }
+    
+    #navbar ul li{
+        float:left;
+    }
+    
+    #navbar ul li a{
+        display: block;
+        padding:20px;
+        text-align: center;
+    }
+    #navbar ul li a:hover,
+    #navar ul li a.current {
+        border-color:#bb2bd8;
+        background:#f4f4f4;
+        color:#bf1ee7;
+    }
+
+    #welcome {
+    background: url(https://wallpapercave.com/wp/wp5347714.jpg) no-repeat center center/cover;
+    height: 800px;
+}
+
+#welcome .welcome-content{
+    color: #f3ecec;
+    text-align: justify;
+    padding-top: 170px;
+}
+
+#welcome .welcome-content1{
+    color: #faa;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+#welcome .welcome-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+#welcome .container {
+    overflow: hidden !important;
+}
+
+.text-primary{
+    color: #c5c2f0;
+}
+.text-primary1{
+    color: #152abc;
+}
+
+.lead {
+    font-size: 30px;
+    color: rgba(247, 245, 245, 0.836);
+}
+
+/*pie de pagina*/
+#main-footer {
+    text-align: center;
+    background: #2a1350;
+    color: #aaafff;
+    padding: 20px;
+}
+
+
+</style>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo" title="CINEMAS POP"><a href="/index.html"> CINEMAS POP</a></h1>
+                <ul>
+                    <li><a class="current" href="/index.html">Inicio</a></li>
+                    <li><a href="/cartelera.html"> Cartelera</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+
+        <div id="welcome">
+            <div class="container">
+                <div class="welcome-content">
+                    <h1 class="text-primary"> Estrenos cada semana</h1>
+                    <p class="lead"> Los mejores estrenos con nostros! 🤩🌠🌠</p>
+                    <a href="https://wallpapercave.com/wp/wp5347714.jpg"></a>
+                </div>
+            </div>
+           </div>
+    </header>
+
+    <div class="clr"></div>
+<footer id="main-footer">
+    <p>AMMV &copy; 2024, Todos los derechos Reservados</p>
+</footer>
+
+
+</body>
